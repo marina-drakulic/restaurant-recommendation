@@ -1,0 +1,20 @@
+body,p,h1,h2,h3,h4,table,td,th,ul,ol,textarea,input
+{
+font-family:arial,sans-serif,verdana,helvetica;
+}
+input[type="radio"]{ 
+	margin-left:10px;
+}
+div.restaurants{
+	width: 500px;
+}
+div.restaurants div span{
+	width: 310px;
+	font-weight:bold;
+	display: inline-block;
+}
+div.restaurants div span.result{
+	width: 245px;
+}
+div.restaurants div:nth-child(odd)    { background-color:#eee; }
+div.restaurants div:nth-child(even)    { background-color:#fff; }
